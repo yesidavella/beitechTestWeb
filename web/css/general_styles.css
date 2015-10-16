@@ -1,0 +1,81 @@
+/* 
+    Created on : 26-sep-2015, 21:36:13
+    Author     : Yesid
+*/
+body{
+    background-color: azure;
+
+}
+
+#divBody{
+    width: 80%;
+    background-color: beige;
+    /*centrar el fucking div en la mitad de la pantalla*/
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    border-radius: 40px;
+}
+
+#divBody_header h2{
+    /*margin: 0;*/
+    /*background-color: bisque;*/
+    display: inline-block;
+    margin: 15px;
+}
+
+
+.wrapperDiv{/*centrar el fucking div en la mitad de la pantalla*/
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    background-color: lightgray;
+}
+
+.wrapperTable{
+    background-color: beige;
+}
+
+table{
+    border:solid lightskyblue;
+}
+
+thead{
+    background-color: lightskyblue;
+}
+
+tbody{
+    background-color: lightcyan;
+}
+
+#divBody_header{
+    width: 100%;
+    /*background-color: yellow;*/
+    /*centrar el fucking div en la mitad de la pantalla*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#divBody_content{
+    width: 100%;
+    /*background-color: aqua;*/
+    /*centrar el fucking div en la mitad de la pantalla*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#divBody_footer{
+    width: 100%;
+    /*background-color: green;*/
+    /*centrar el fucking div en la mitad de la pantalla*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#h2Wrapper{
+    background-color: lightskyblue;
+    border-radius: 40px 40px 0px 0px;
+}
