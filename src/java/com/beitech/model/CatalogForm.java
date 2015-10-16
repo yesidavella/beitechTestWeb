@@ -5,7 +5,7 @@ package com.beitech.model;
  *
  * @author yesid
  */
-public class CatalogForm {
+public class CatalogForm extends org.apache.struts.action.ActionForm {
 
     private int idCustomer;
     private int idProduct;
