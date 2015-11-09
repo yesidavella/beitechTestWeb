@@ -30,6 +30,7 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(com.beitech.controller.ws.CustomerFacadeREST.class);
+        resources.add(com.beitech.controller.ws.OrderClassFacadeREST.class);
         resources.add(com.beitech.controller.ws.ReferenceFacadeREST.class);
     }
     
